@@ -18,7 +18,8 @@ Download the following:
 
 Steps
 
-1. `source venv/bin/activate`
-2. `pip install -r requirements.txt` 
-3. `jupyter notebook` (be sure to use the right kernel)
+1. `python3 -m venv venv` to create new venv
+1. `source venv/bin/activate` to activate venv
+2. `pip install -r requirements.txt` to install dependencies
+3. `jupyter notebook` to open jupyter (be sure to use the right kernel)
 4. Run the file `NLP_PROJECT.ipynb`
